@@ -107,11 +107,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: const Text(
                         "Don't have an account? create here",
                         style: const TextStyle(
-                          color: Colors.blue,
-                          fontSize: 18,
+                          color: Colors.white,
+                          fontSize: 16,
                         ),
                       ),
                     ),
+                    const SizedBox(
+                      height: 60,
+                    )
                   ],
                 ),
               ),
